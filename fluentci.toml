@@ -1,0 +1,11 @@
+[package]
+name = "typos"
+version = "0.1.0"
+description = "CI/CD Plugin for typos"
+license = "MIT"
+keywords = [
+  "typos"
+]
+authors = [
+  "Tsiry Sandratraina <tsiry.sndr@fluentci.io>"
+]
