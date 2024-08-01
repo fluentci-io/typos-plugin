@@ -50,7 +50,7 @@ Github Actions:
     wasm: true
     plugin: typos
     args: |
-      lint
+      check
   env:
     GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
