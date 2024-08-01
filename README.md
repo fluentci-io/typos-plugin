@@ -50,4 +50,6 @@ Github Actions:
     plugin: typos
     args: |
       lint
+  env:
+    GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
