@@ -1,5 +1,6 @@
 # Typos Plugin
 
+[![fluentci pipeline](https://shield.fluentci.io/x/typos)](https://pkg.fluentci.io/typos)
 [![ci](https://github.com/fluentci-io/typos-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/fluentci-io/typos-plugin/actions/workflows/ci.yml)
 
 This plugin sets up your CI/CD pipeline with a specific version of [typos](https://github.com/crate-ci/typos).
@@ -17,7 +18,7 @@ fluentci run --wasm typos setup
 | Name   | Description                                |
 | ------ | ------------------------------------------ |
 | setup  | Installs a specific version of typos.      |
-| lint   | Finds typos in the source code.            |
+| check  | Finds typos in the source code.            |
 
 ## Code Usage
 

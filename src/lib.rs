@@ -18,7 +18,7 @@ pub fn setup(version: String) -> FnResult<String> {
 }
 
 #[plugin_fn]
-pub fn lint(args: String) -> FnResult<String> {
+pub fn check(args: String) -> FnResult<String> {
     let stdout = dag()
         .pkgx()?
         .with_exec(vec!["pkgx", "typos", &args])?
